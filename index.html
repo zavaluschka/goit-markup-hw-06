@@ -68,10 +68,15 @@
                             </div>
                             <label class="modal-form-label"> Comment</label>
                             <textarea class="modal-form-textarea" name="Comment"  rows="6" placeholder="Text input"></textarea>
-                            <label>
-                                <input class="" type="checkbox" name="" >
-                            <span>I accept the terms and conditions of the <a href=""> Privacy Policy</a></span></label>
-                            <button type="submit">Send</button>
+                            <label class="modal-form-label">
+                                <input class="modal-form-checkbox" type="checkbox" name="" >
+                                <svg class="modal-form-checkbox-icon" width="16" height="16">
+                                  <use class="modal-form-checkbox-uncheced" href="./images/icons.svg#icon-noclick"></use>
+                                <use class="modal-form-checkbox-checed" href="./images/icons.svg#icon-click"></use>
+                                </svg>
+                                <span class="text-checkbox">I accept the terms and conditions of the <a class=" link-checkbox" href=""> Privacy Policy</a></span>
+                            </label>
+                            <button class="send-btn btn" type="submit">Send</button>
                          </form>
                     </section>
 
@@ -293,17 +298,21 @@
 
                     </div>
                     <div class="subscribe">
+                        <p class="subscribe-title">Subscribe</p>
                         <form action="" class="e-mail">
-                            <label class="label" >Subscribe
+                            <label class="label-sub" >
                                <div class="footer-contact">
-                                <input type="text" placeholder="E-mail">
-                                <svg class="icon-send" width="24" height="20">
-                                  <use href="./images/icons.svg#icon-send"></use>
-                                </svg>
-                            </div>
+                                    <input name="e-mail" class="footer-contact-input" type="text" placeholder="E-mail">
+                                </div>
                             </label>
-                        </form>
-                       <button class="subscribe-btn hero-btn" type="button">Subscribe</button>
+                        
+                            <div class="btn-wrapper">
+                            <button class="subscribe-btn btn" type="submit">Subscribe<svg class="icon-send" width="24" height="20">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                    </svg>
+                            </button>
+                            </div>
+                        </form>    
                     </div>
         </div>
     </footer>
