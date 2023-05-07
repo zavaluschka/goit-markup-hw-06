@@ -42,6 +42,11 @@
             </div>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
+                        <button class="modal-btn btn" type="button" data-modal-close>
+                             <svg class="modal-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                            </svg>
+                            </button>
                         <strong class="modal-titel">Leave your contacts and we will call you back</strong>
                         <form class="modal-form" name="contacts" action="" >
                                 <label class="modal-form-label" for="name">Name</label>
@@ -67,7 +72,7 @@
                             </div>
                             <label class="modal-form-label" for="comment"> Comment</label>
                             <textarea class="modal-form-textarea" id="comment" name="Comment"  rows="6" placeholder="Text input"></textarea>
-                            <label class="modal-form-label modal-form-label-check" for="check">
+                            <label class=" modal-form-label-check" for="check">
                                 <input class="modal-form-checkbox" id="check" type="checkbox" name="" >
                                     <svg class="modal-form-checkbox-icon" width="16" height="16">
                                     <use class="modal-form-checkbox-uncheced" href="./images/icons.svg#icon-noclick"></use>
@@ -77,11 +82,7 @@
                             </label>
                             <button class="send-btn btn" type="submit">Send</button>
                             </form>
-                        <button class="modal-btn" type="button" data-modal-close>
-                        <svg class="modal-icon" width="8" height="8">
-                          <use href="./images/icons.svg#icon-close-black"></use>
-                        </svg>
-                            </button>
+                        
                 </div>
             </div>
         </section>
