@@ -714,14 +714,14 @@ opacity: 0;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    /* outline: 2px solid transparent; */
+    outline: none;
     /* outline-offset: -2px; */
     padding: 0 40px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .modal-form-input:focus{
-    outline-color: var(--logo-color);
+    border-color: var(--logo-color);
 }
 .modal-form-input:focus + .contact-icon{
     fill: var(--logo-color);
@@ -732,6 +732,7 @@ opacity: 0;
     min-height: 120px;
     max-height: 180px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    outline: none;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -741,7 +742,7 @@ opacity: 0;
 }
 .modal-form-textarea:focus  {
     fill: var(--logo-color);
-    outline-color: var(--logo-color);
+    border-color: var(--logo-color);
 }
 .modal-form-textarea::placeholder{
     font-size: 12px;
